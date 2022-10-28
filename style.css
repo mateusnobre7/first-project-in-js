@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(assets/barbecue.jpg);
+    background-repeat: no-repeat;
+    background-position-x: -1000px;
+    background-position-y: -1200px;
+    background-size: 250%;
+    font-family: 'Mulish', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+section{
+    max-width: 500px;
+    width: 90%;
+    background-color: #7B3D0A;
+    margin: auto;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+section h1{
+    text-align: center;
+    font-weight: 800;
+    color: #FFFFFF;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+section p{
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+}
+
+section input{
+    width: 100%;
+    display: block;
+    height: 30px;
+    padding: 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    border: none;
+}
+
+button{
+    width: 150px;
+    height: 40px;
+    border-radius: 4px;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    margin-top: 10px;
+    transition: transform .2s;
+}
+
+button:hover{
+    transform: scale(1.02);
+}
